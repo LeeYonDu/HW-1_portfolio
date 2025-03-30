@@ -1,0 +1,246 @@
+/*main*/
+
+* {
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(55, 68, 97, 0.87);
+ 
+}
+
+section {
+  width: 95vw;
+  height: 90vh;
+  border: 4px solid rgba(236, 231, 203, 0.849);
+  padding:20px;
+  margin: 20px auto;
+}
+
+p {
+    color: rgba(236, 231, 203, 0.849);
+    font-family:"Tektur", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.computer {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    object-fit: contain;
+    animation: moveAndRotate 0.8s infinite alternate ease-in-out;
+    width: 480px;
+  }
+  
+  @keyframes moveAndRotate {
+    0% {
+      transform: translate(-50%, -50%) translateX(-3px) rotate(-3deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) translateX(3px) rotate(3deg);
+    }
+  }
+
+#main {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 26%;
+    left: 50%;
+    font-size: 130px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 500;
+    font-style: italic;
+    
+} 
+
+#main1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    left: 50%;
+    font-size: 160px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 700;
+    font-style: italic;
+  
+}
+
+#click {
+  position: absolute;
+  font-size: 25px;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;  
+  padding: 8px 15px;  
+  background-color: none; 
+  border: 2px solid rgba(236, 231, 203, 0.849);  
+  border-radius: 70%;  
+}
+.vertical-line1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 3%;
+  width: 2px;   
+  height: 800px; 
+  background-color: rgba(214, 210, 184, 0.849); 
+}
+.vertical-line2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 97%;
+  width: 2px;   
+  height: 800px; 
+  background-color: rgba(214, 210, 184, 0.849); 
+}
+.vertical-line3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 3.5%;
+  width: 2px;
+  height: 770px; 
+  background-color: rgba(214, 210, 184, 0.849); 
+}
+.vertical-line4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 96.5%;
+  width: 2px;
+  height: 770px; 
+  background-color: rgba(214, 210, 184, 0.849); 
+}
+
+
+
+/*portfolio*/
+
+#portfolio {
+  background-size: 100% auto;
+  background-image: url(img/배경.jpg);
+  z-index: -1;
+}
+
+#about1{
+  position: absolute;
+  width: 100px;
+  top: 15%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+#like1{
+  position: absolute;
+  width: 110px;
+  top: 30%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+#project1{
+  position: absolute;
+  width: 100px;
+  top: 45%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+#ziho1{
+  position: absolute;
+  width: 150px;
+  top: 60%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+#merry1{
+  position: absolute;
+  width: 100px;
+  top: 75%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+#bar {
+  position: absolute;
+  top: 93%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  
+
+}
+
+#aboutt {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+#liket {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+#projectt {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+#zihot {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+#merryt {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+#main2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  font-size: 120px;
+  font-family:"Tektur", serif;
+  font-weight: 500;
+  font-style: normal;
+  
+} 
+
+#tab {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+}
+
+
+/*about*/
+
+/*like*/
+
+/*project*/
+
+/*ziho*/
+
+/*merry*/
