@@ -427,6 +427,41 @@ p {
 }
 /*project*/
 
+#subhead5 {
+  position: absolute;
+  top: 37%;
+  left: 21%;
+  transform: translate(0%, -50%);
+  z-index: 1;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+#content6 {
+  position: absolute;
+  top: 55%;
+  left: 23%;
+  transform: translate(0%, -50%);
+  z-index: 1;
+  font-size:25px;
+}
+
+#todopage {
+  position: absolute;
+  top: 68%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  z-index: 3;
+}
+#todo {
+  position: absolute;
+  top: 35%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  z-index: 3;
+}
 /*ziho*/
 
 /*merry*/
