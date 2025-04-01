@@ -2,21 +2,22 @@
 
 * {
   overflow: hidden;
+  
 }
 
 body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(55, 68, 97, 0.87);
- 
+  aspect-ratio: 16 / 9;
 }
 
 section {
   width: 95vw;
   height: 90vh;
   border: 4px solid rgba(236, 231, 203, 0.849);
-  padding:20px;
-  margin: 20px auto;
+  padding: 1%;
+  margin: 2% auto;
 }
 
 p {
@@ -33,7 +34,7 @@ p {
     transform: translate(-50%, -50%) rotate(0deg);
     object-fit: contain;
     animation: moveAndRotate 0.8s infinite alternate ease-in-out;
-    width: 480px;
+    width: 30%;
   }
   
   @keyframes moveAndRotate {
@@ -50,7 +51,7 @@ p {
     transform: translate(-50%, -50%);
     top: 26%;
     left: 50%;
-    font-size: 130px;
+    font-size: 900%;
     font-family: "Bodoni Moda", serif;
     font-weight: 500;
     font-style: italic;
@@ -62,7 +63,7 @@ p {
     transform: translate(-50%, -50%);
     top: 43%;
     left: 50%;
-    font-size: 160px;
+    font-size: 1100%;
     font-family: "Bodoni Moda", serif;
     font-weight: 700;
     font-style: italic;
@@ -72,13 +73,13 @@ p {
 
 #click {
   position: absolute;
-  font-size: 25px;
+  font-size: 160%;
   color: rgba(236, 231, 203, 0.849);
   top: 91%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: inline-block;  
-  padding: 8px 15px;  
+  padding: 0.5% 1%;  
   background-color: none; 
   border: 2px solid rgba(236, 231, 203, 0.849);  
   border-radius: 70%;  
@@ -87,36 +88,36 @@ p {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 3%;
-  width: 2px;   
-  height: 800px; 
+  left: 4%;
+  width: 0.12%;   
+  height: 80%; 
   background-color: rgba(214, 210, 184, 0.849); 
 }
 .vertical-line2 {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 97%;
-  width: 2px;   
-  height: 800px; 
+  left: 96%;
+  width: 0.12%;   
+  height: 80%; 
   background-color: rgba(214, 210, 184, 0.849); 
 }
 .vertical-line3 {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 3.5%;
-  width: 2px;
-  height: 770px; 
+  left: 3.3%;
+  width: 0.12%;
+  height: 85%; 
   background-color: rgba(214, 210, 184, 0.849); 
 }
 .vertical-line4 {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 96.5%;
-  width: 2px;
-  height: 770px; 
+  left: 96.7%;
+  width: 0.12%;
+  height: 85%;  
   background-color: rgba(214, 210, 184, 0.849); 
 }
 
@@ -132,7 +133,7 @@ p {
 
 #about1{
   position: absolute;
-  width: 100px;
+  width: 6%;
   top: 15%;
   left: 5%;
   transform: translate(-50%, -50%);
@@ -141,39 +142,39 @@ p {
 
 #like1{
   position: absolute;
-  width: 110px;
+  width: 6.5%;
   top: 30%;
   left: 5%;
   transform: translate(-50%, -50%);
 }
 #project1{
   position: absolute;
-  width: 100px;
+  width: 5%;
   top: 45%;
   left: 5%;
   transform: translate(-50%, -50%);
 }
 #ziho1{
   position: absolute;
-  width: 150px;
+  width: 8%;
   top: 60%;
   left: 5%;
   transform: translate(-50%, -50%);
 }
 #merry1{
   position: absolute;
-  width: 100px;
+  width: 6%;
   top: 75%;
   left: 5%;
   transform: translate(-50%, -50%);
 }
 #bar {
   position: absolute;
-  top: 93%;
+  top: 100%;
   left: 0%;
   width: 100%;
   height: auto;
-  
+  transform: translate(0%, -100%);
 
 }
 
@@ -182,7 +183,7 @@ p {
   top: 20%;
   left: 5%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 120%;
   color: rgba(236, 231, 203, 0.849);
 }
 
@@ -191,7 +192,7 @@ p {
   top: 35%;
   left: 5%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 120%;
   color: rgba(236, 231, 203, 0.849);
 }
 
@@ -200,7 +201,7 @@ p {
   top: 50%;
   left: 5%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 120%;
   color: rgba(236, 231, 203, 0.849);
 }
 
@@ -209,7 +210,7 @@ p {
   top: 65%;
   left: 5%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 120%;
   color: rgba(236, 231, 203, 0.849);
 }
 
@@ -218,7 +219,7 @@ p {
   top: 80%;
   left: 5%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 120%;
   color: rgba(236, 231, 203, 0.849);
 }
 
@@ -227,7 +228,7 @@ p {
   transform: translate(-50%, -50%);
   top: 35%;
   left: 50%;
-  font-size: 120px;
+  font-size: 700%;
   font-family:"Tektur", serif;
   font-weight: 500;
   font-style: normal;
@@ -239,7 +240,7 @@ p {
   position: absolute;
   top: 47%;
   left: 50%;
-  width: 1200px;
+  width: 70%;
   transform: translate(-50%, -50%);
 }
 
@@ -251,7 +252,7 @@ p {
   left: 25%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 60px;
+  font-size: 350%;
 }
 
 #content1 {
@@ -260,7 +261,8 @@ p {
   left: 40%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 25px;
+  font-size: 160%;
+  
 }
 
 #subhead1 {
@@ -269,7 +271,7 @@ p {
   left: 25%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 33px;
+  font-size: 230%;
   font-weight: 400;
 }
 
@@ -284,7 +286,7 @@ p {
   left: 40%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 25px;
+  font-size: 160%;
 }
 
 #subhead2 {
@@ -293,17 +295,17 @@ p {
   left: 25%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 33px;
+  font-size: 230%;
   font-weight: 400;
 }
 
 #hello {
   position: absolute;
   top: 26%;
-  left: 52%;
-  transform: translate(0%, -50%);
+  left: 63%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 32px;
+  font-size: 200%;
   font-weight: 300;
 }
 
@@ -311,37 +313,37 @@ p {
 
 #cameraicon{
   position: absolute;
-  top: 58%;
+  top: 55%;
   left: 35%;
   transform: translate(-50%, -50%);
-  width: 270px;
+  width: 17%;
 }
 
 #bassicon{
   position: absolute;
-  top: 55%;
+  top: 54%;
   left: 65%;
   transform: translate(-50%, -50%);
-  width: 350px;
+  width: 21%;
 }
 
 #subhead3 {
   position: absolute;
-  top: 76%;
+  top: 75%;
   left: 35%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 30px;
+  font-size: 180%;
   font-weight: 400;
 }
 
 #subhead4 {
   position: absolute;
-  top: 76%;
+  top: 75%;
   left: 65%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 30px;
+  font-size: 180%;
   font-weight: 400;
 }
 
@@ -351,7 +353,7 @@ p {
   left: 24%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 30px;
+  font-size: 200%;
 }
 
 #content4 {
@@ -360,7 +362,7 @@ p {
   left: 24%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 30px;
+  font-size: 200%;
 }
 
 #공연1 {
@@ -368,25 +370,25 @@ p {
   top: 63%;
   left: 70%;
   transform: translate(-50%, -50%);
-  width: 335px;
+  width: 20%;
   z-index: 3;
 }
 
 #필름 {
   position: absolute;
   top: 63%;
-  left: 30%;
+  left: 28%;
   transform: translate(-50%, -50%);
-  width: 330px;
+  width: 19.9%;
   z-index: 3;
 }
 
 #디지털 {
   position: absolute;
   top: 63%;
-  left: 49.9%;
+  left: 49%;
   transform: translate(-50%, -50%);
-  width: 338px;
+  width: 20.3%;
   z-index: 3;
 }
 
@@ -397,9 +399,9 @@ p {
 #basspng {
   position: absolute;
   top: 54%;
-  left: 63%;
+  left: 64.5%;
   transform: translate(-50%, -50%);
-  width: 700px;
+  width: 40%;
   z-index: 3;
 }
 #clover {
@@ -407,7 +409,7 @@ p {
   top: 57%;
   left: 75%;
   transform: translate(-50%, -50%);
-  width: 100px;
+  width: 5%;
   z-index: 3;
 }
 #lp {
@@ -415,7 +417,7 @@ p {
   top: 71%;
   left: 67%;
   transform: translate(-50%, -50%);
-  width: 100px;
+  width: 5%;
   z-index: 3;
 }
 #music {
@@ -423,7 +425,7 @@ p {
   top: 40%;
   left: 62%;
   transform: translate(-50%, -50%);
-  width: 85px;
+  width: 5%;
   z-index: 3;
 }
 /*project*/
@@ -434,7 +436,7 @@ p {
   left: 21%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 33px;
+  font-size: 220%;
   font-weight: 400;
 }
 
@@ -444,7 +446,7 @@ p {
   left: 22.5%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size:22px;
+  font-size: 140%;
 }
 
 #todopage {
@@ -452,7 +454,7 @@ p {
   top: 68%;
   left: 66%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 30%;
   z-index: 3;
 }
 #todo {
@@ -460,7 +462,7 @@ p {
   top: 35%;
   left: 66%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 30%;
   z-index: 3;
 }
 /*ziho*/
@@ -470,7 +472,7 @@ p {
   left: 22%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size: 33px;
+  font-size: 200%;
   font-weight: 800;
 }
 
@@ -480,48 +482,41 @@ p {
   left: 22.5%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size:21px;
+  font-size: 130%;
 }
 
 #clover1{
   position: absolute;
-  top: 34.7%;
-  left: 51%;
+  top: 34.9%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 40px;
+  width: 2.5%;
   z-index: 3;
 }
 /*merry*/
 #dog1 {
   position: absolute;
   top: 46%;
-  left: 22.5%;
+  left: 21%;
   transform: translate(0%, -50%);
   z-index: 1;
-  font-size:25px;
+  font-size:155%;
 }
-#m1 {
-  position: absolute;
-  top: 70%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  width: 180px;
-  z-index: 3;
-}
+
 #m2 {
   position: absolute;
   top: 73%;
-  left: 24.5%;
+  left: 23.9%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 16%;
   z-index: 3;
 }
 #m3{
   position: absolute;
-  top: 61%;
-  left: 50%;
+  top: 61.5%;
+  left: 51%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 17%;
   z-index: 3;
   transform: rotate(-42deg);
 }
@@ -530,23 +525,23 @@ p {
   top: 68%;
   left: 78%;
   transform: translate(-50%, -50%);
-  width: 350px;
+  width: 20%;
   z-index: 4;
 }
 #m0{
   position: absolute;
   top: 40%;
-  left: 72%;
+  left: 71.8%;
   transform: translate(-50%, -50%);
-  width: 250px;
+  width: 15%;
   z-index: 3;
 }
 
 #dog{
   position: absolute;
-  top: 25%;
-  left: 34%;
+  top: 24.6%;
+  left: 33%;
   transform: translate(-50%, -50%);
-  width: 250px;
+  width: 14%;
   z-index: 3;
 }
